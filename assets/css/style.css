@@ -23,7 +23,7 @@ body {
   transition: all .5s ease-in-out;
 }
 
-.menubar li a:hover{
+.menubar li a:hover {
   color: #a30000;
 }
 
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #aecae9;
   text-decoration: none;
 }
 
@@ -81,17 +81,22 @@ img {
     max-width: 800px;
   }
 }
+
 @media screen and (max-width: 804px) {
   .header {
     font-size: 30px;
   }
+
   .menubar {
     font-size: 20px;
   }
+
   main {
     max-width: 500px;
   }
-  p, h2 {
+
+  p,
+  h2 {
     font-size: 24px;
   }
 }
@@ -100,10 +105,13 @@ img {
   .header {
     font-size: 22px;
   }
+
   main {
     max-width: 300px;
   }
-  p, h2 {
+
+  p,
+  h2 {
     font-size: 15px;
   }
 }
