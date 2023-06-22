@@ -1,20 +1,27 @@
+@font-face {
+  font-family: "vazir";
+  src: url("Vazir.ttf");
+}
 body {
-  font-family: sans-serif;
+  font-family: vazir;
   background: #111111;
   color: #ffffff;
   text-align: center;
+  font-size: 100%;
 }
 h1 {
   color: #8def95;
+  font-size: 3.5vw;
 }
 h2 {
   color: #ff0e91;
+  font-size: 2vw;
 }
 p {
   direction: rtl;
   text-align: center;
   color: #f5f6dd;
-  font-size: larger;
+  font-size: 1.5vw;
 }
 main {
   max-width: 800px;
@@ -22,7 +29,7 @@ main {
 }
 ul {
   text-align: right;
-  font-size: large;
+  font-size: 2.5vw;
   margin-right: 25%;
 }
 a,
@@ -30,7 +37,7 @@ a:hover,
 a:active,
 a:visited {
   color: #aecae9;
-  font-size: larger;
+  font-size: 2.5vw;
 }
 img {
   max-width: 100%;
