@@ -1,0 +1,69 @@
+body {
+  font-family: sans-serif;
+  background: #111111;
+  color: #ffffff;
+  text-align: center;
+}
+h1 {
+  color: #8def95;
+}
+h2 {
+  color: #ff0e91;
+}
+p {
+  direction: rtl;
+  text-align: center;
+  color: #f5f6dd;
+  font-size: larger;
+}
+main {
+  max-width: 800px;
+  margin: auto;
+}
+ul {
+  text-align: right;
+  font-size: large;
+  margin-right: 25%;
+}
+a,
+a:hover,
+a:active,
+a:visited {
+  color: #aecae9;
+  font-size: larger;
+}
+img {
+  max-width: 100%;
+}
+
+header h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+}
+
+/* For TAGLIST.HTML */
+.taglist {
+  text-align: center;
+  clear: both;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+  /* The container for both the previous and next articles. */
+}
+#prevart {
+  float: left;
+  text-align: left;
+}
+#nextart {
+  float: right;
+  text-align: right;
+}
+#nextart,
+#prevart {
+  max-width: 33%;
+}
